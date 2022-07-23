@@ -1,0 +1,22 @@
+{
+  "name": "e2e-wikipedia-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilbisht/e2e-wikipedia-search.git"
+  },
+  "author": "Nikhil Bisht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilbisht/e2e-wikipedia-search/issues"
+  },
+  "homepage": "https://github.com/nikhilbisht/e2e-wikipedia-search#readme",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  }
+}
