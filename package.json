@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "cypress run --spec 'cypress/e2e/**/*.js' --headed --browser=chrome"
   },
   "repository": {
     "type": "git",
