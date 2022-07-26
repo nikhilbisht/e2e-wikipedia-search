@@ -43,3 +43,8 @@ After cloning the project from the repository, make sure you run `npm install` t
          
   ## Reports: 
   ![image](https://user-images.githubusercontent.com/17799801/181012964-79a96b92-4a7b-4eab-b055-0bd4e939a2e4.png)
+  
+  ## Jenkins Console Output: 
+  ![image](https://user-images.githubusercontent.com/17799801/181013646-9b0799a3-07ea-4665-a68b-3a706e31e381.png)
+  ![image](https://user-images.githubusercontent.com/17799801/181013774-3a2f9fbf-8b27-4417-8b5e-8294a26745c1.png)
+
