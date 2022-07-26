@@ -14,6 +14,7 @@ describe("Search Apollo 11 in Wikipedia", ()=>{
     it("Search the text with default language selected", ()=>{
         cy.inputText(search.text)
         cy.clickSearchIcon()
+        cy.verifyHeadingText(search.text)
     })
 
     it("Search the text with language selected as Hindi", ()=>{
