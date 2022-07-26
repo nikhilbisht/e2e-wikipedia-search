@@ -10,6 +10,8 @@ Cypress.Commands.add('clickSearchIcon', ()=>{
         .click()
 })
 
-Cypress.Commands.add('selectLanguage',()=>{
-    cy.get('select#searchLanguage').select('English').should('have.value','en')
+Cypress.Commands.add('selectLanguage',(language)=>{
+    cy.get('select#searchLanguage')
+        .select(language)
+        .should('have.value',language)
 })
